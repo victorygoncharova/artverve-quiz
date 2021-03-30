@@ -1,0 +1,24 @@
+.quiz {
+  height: 100%;
+  display: grid;
+  grid-template-columns: minmax(320px, 1400px);
+  justify-content: center;
+  align-items: center;
+}
+
+.question {
+  min-height: 600px;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .quiz {
+    grid-template-columns: 1fr;
+    align-items: initial;
+    justify-content: initial;
+  }
+
+  .question {
+    min-height: 100%;
+  }
+}

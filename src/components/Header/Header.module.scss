@@ -1,0 +1,50 @@
+.header {
+  display: grid;
+  min-height: 80px;
+  grid-template-columns: 1fr max-content;
+  background-color: #e5e5e5;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  margin-left: 65px;
+}
+
+.nav {
+  margin-right: 100px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+}
+
+.item {
+  font-size: 20px;
+  margin-right: 20px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 767px) {
+  .header {
+    padding-top: 20px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .logo {
+    margin-left: 0;
+  }
+
+  .nav {
+    margin-right: 0;
+    margin-top: 20px;
+  }
+}

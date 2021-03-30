@@ -1,0 +1,9 @@
+.answersList {
+  margin-top: 40px;
+  margin-right: 30px;
+  list-style: none;
+}
+
+@media (max-width: 767px) {
+  margin-right: 0;
+}
