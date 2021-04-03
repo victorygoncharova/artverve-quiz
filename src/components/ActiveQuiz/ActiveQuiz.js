@@ -22,8 +22,7 @@ const ActiveQuiz = ({
     <section className={styles.activeQuiz}>
       <div className={styles.count}>
         <span>
-          {" "}
-          {answerNumber} / {quizLength}{" "}
+          {answerNumber} / {quizLength}
         </span>
       </div>
 
